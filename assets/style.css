@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+:root {
+    --primary : rgba(24, 92, 152, 1);
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-family: 'Merriweather';
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+/* Header */
+.header {
+    margin: 4px 0 18px 0;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--primary);
+    height: 36px;
+}
+
+.header ul li a{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--white);
+}
+
+/* Container */
+.container h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #c02a29;
+    margin-bottom: 24px;
+}
+
+.container span {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.container h5 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.container h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Table */
+.h1 {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    margin: 25px 0;
+}
