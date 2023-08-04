@@ -1,0 +1,112 @@
+:root {
+    --primary-color : #fff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:var(--primary-color);
+}
+
+.header-top {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(49deg, rgba(3,0,36,1) 0%, rgba(9,91,245,1) 26%, rgba(14,210,250,1) 100%);
+}
+
+.header-logo {
+    bottom: 250px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+
+.header-content {
+    display: flex;
+    position: relative;
+}
+
+.header-content > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    right: 350px;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 30px;
+    width: 295px;
+    color: rgb(16, 99, 16);
+    padding: 10px 0;
+}
+
+.header-content ul li {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 4px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0px 0px 5px var(--primary-color);
+    background: linear-gradient(49deg, rgba(180,58,58,1) 0%, rgba(253,29,29,1) 16%, rgba(252,176,69,1) 70%);
+    color : var(--primary-color);
+    border-radius: 60% 40% 85% 15% / 52% 36% 64% 48%;
+}
+
+.header-menu {
+    width: 60%;
+    padding-bottom: 70px;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-item li {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 71% 29% 43% 57% / 39% 78% 22% 61%;
+    border: 3px solid var(--primary-color);
+    width: 100px;
+    height: 30px;
+}
+
+.header-item li:hover {
+    background-color: rgb(182, 182, 29);
+    cursor: pointer;
+}
+
+.header-bot {
+    position: relative;
+    background-color: #fff;
+}
+
+.header-img {
+    position: absolute;
+    top: -40px;
+    left: 12.5%;
+    width: 1000px;
+    border: 10px solid var(--primary-color);
+    border-radius: 5px;
+}
